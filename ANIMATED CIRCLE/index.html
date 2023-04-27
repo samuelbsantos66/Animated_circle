@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacchi</title>
+    <style>
+        .circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: purple;
+            position: relative;
+            animation: mymove 3s infinite;
+            animation-direction: alternate;
+
+        }
+
+        h1 {
+            text-align: center;
+            position: relative;
+            left: 1px;
+            top: 75px;
+        }
+
+        @keyframes mymove {
+            from {
+                top: 0px
+            }
+
+            to {
+                top: 200px
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="circle">
+        <h1>Animated Circle</h1>
+    </div>
+</body>
+
+</html>
